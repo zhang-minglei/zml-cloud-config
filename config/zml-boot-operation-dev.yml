@@ -1,0 +1,15 @@
+spring:
+  output:
+    ansi:
+      enabled: always
+  jackson:
+    time-zone: GMT+8
+  application:
+    name: zml-boot-operation
+server:
+  port: 9002
+
+
+eureka:
+  client:
+    serviceUrl.defaultZone: http://127.0.0.1:7777/eureka/
